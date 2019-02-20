@@ -1,0 +1,4 @@
+Als referentie voor het kalibreren van de temperatuursensor, is er gebruikt gemaakt van de reeds gekalibreerde LM35.
+Beide sensoren waren aangesloten op de analoge pinnen van de Arduino Nano, die vervolgens werd gebruikt om de digitale waardes en de temperatuur uit te lezen. Voor de sensor is gebruik gemaakt van een pull-down weerstand van 10k O. 
+Het kalibreren van de sensor is gedaan in een pan met water om een zo goed mogelijk verdeelde temperatuur te hebben. De sensoren waren zo dicht mogelijk bij elkaar gebracht in een plastic zakje, zodat de sensoren droog bleven en de weerstand niet zou afnemen door het water. 
+Vervolgens werd het water verhit tot 100°C om vervolgens weer langzaam te afkoelen tot -20°C. Bij elke 5°C verschil is het gemiddelde van de 10 bit waarde van de ADC opgenomen. Deze digitale waardes konden dan uiteindelijk omgerekend worden naar de weerstand van de temperatuursensor.
